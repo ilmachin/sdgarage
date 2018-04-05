@@ -125,6 +125,15 @@ a,
   margin-left: 5px;
 }
 
+
+
+.rscolor {
+  
+  border: 1px solid #e5e5e5;
+  font-size: 13px;
+}
+
+
 .fa-icons > div {
   padding: 0;
   border: 1px solid #e5e5e5;

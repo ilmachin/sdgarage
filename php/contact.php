@@ -43,8 +43,8 @@
 	$email = $_POST['email'];
 	$message = $_POST['message'];
 	$from = $email;
-	$to = 'info@example.com';  // please change this email id
-	$subject = 'Contact Form : Titan - The best downloaded template ever';
+	$to = 'cristian.arredondof@gmail.com';  // please change this email id
+	$subject = 'Contacto SD Garage';
 
 	$body = "From: $name\n E-Mail: $email\n Message:\n $message";
 
@@ -56,7 +56,7 @@
 	if (mail ($to, $subject, $body, $headers)) {
 		$result .= '<div class="alert alert-success alert-dismissible" role="alert">';
  		$result .= '<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>';
-		$result .= 'Thank You! I will be in touch';
+		$result .= 'Muchas gracias, te contactaremos a la brevedad.';
 		$result .= '</div>';
 
 		echo $result;
@@ -66,7 +66,7 @@
 	$result = '';
 	$result .= '<div class="alert alert-danger alert-dismissible" role="alert">';
 	$result .= '<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>';
-	$result .= 'Something bad happend during sending this message. Please try again later';
+	$result .= 'Algo ocurrió cuando envíabamos el mensaje. Por favor vuelve a intentar o ponte en contacto por redes sociales y celular.';
 	$result .= '</div>';
 
 	echo $result;

@@ -1,13 +1,13 @@
 <?php
 
-$to = 'info@example.com';  // please change this email id
+$to = 'cristian.arredondof@gmail.com';  // please change this email id
 
 $errors = array();
 // print_r($_POST);
 
 // Check if name has been entered
 if (!isset($_POST['subject'])) {
-    $errors['subject'] = 'Please choose your subject';
+    $errors['subject'] = 'Contacto en SD Garage';
 }
 
 // Check if email has been entered and is valid

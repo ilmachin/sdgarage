@@ -143,6 +143,12 @@ a,
   font-size: 14px;
 }
 
+.rscolor {
+  
+  border: 1px solid #e5e5e5;
+  font-size: 13px;
+}
+
 .help-block ul {
   list-style: none;
   padding: 0;
